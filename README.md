@@ -23,7 +23,7 @@ A single scan reveals user-friendly, structured emergency information with the a
 ---
 
 ## 🌐 Live Demo  
-👉 **https://soumyadeep-mondal-dev.github.io/rapidaid/)**  
+👉 **https://soumyadeep-mondal-dev.github.io/RapidAid-QR_Emergency_Card/**  
 (Replace with actual deployed GitHub Pages URL)
 
 ---
