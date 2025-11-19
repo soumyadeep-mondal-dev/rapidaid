@@ -48,64 +48,6 @@ A single scan reveals user-friendly, structured emergency information with the a
 The tool detects background color and automatically adjusts text color for best visibility — with manual overrides if needed.
 
 ### 📝 **4. Multi-format QR Payload (Human + Machine readable)**
-QR code contains:
-
----
-
-### **A. Human-Readable Block**
-Example:
-
-RapidAid Emergency Info
-Name: Priya Sharma
-Blood Group: O+
-Age: 24
-Allergies: Penicillin
-Medications: Insulin
-Instructions: Carry epipen
-
-Emergency Contacts:
-	1.	John – +91XXXX
-	2.	Sister – +91XXXX
-
-  This ensures **any QR scanner**, even the simplest ones, displays clean, readable information.
-
----
-
-### **B. JSON Block**
-Included under:
-
-—JSON—
-{
-“name”: “…”,
-“contacts”: [
-{
-“label”: “John Doe”,
-“phone”: “+91XXXX”,
-“vcard”: “BEGIN:VCARD\nVERSION:3.0\nFN:John Doe\nTEL:+91XXXX\nEND:VCARD”
-}
-]
-}
-
-This helps advanced QR apps parse data programmatically.
-
----
-
-### **C. vCard Block**
-Each emergency contact has a standalone vCard:
-
-—VCARDS—
-BEGIN:VCARD
-VERSION:3.0
-FN:John Doe
-TEL:+91XXXX
-END:VCARD
-
-This ensures:
-- iPhones can directly "Add to Contacts"  
-- Android scanners support direct import  
-- Universal compatibility  
-
----
 
 # 🧪 How to Use
 
