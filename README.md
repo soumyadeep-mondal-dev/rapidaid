@@ -23,7 +23,7 @@ A single scan reveals user-friendly, structured emergency information with the a
 ---
 
 ## 🌐 Live Demo  
-👉 **https://YOUR-USERNAME.github.io/rapidaid/**  
+👉 **https://soumyadeep-mondal-dev.github.io/rapidaid/)**  
 (Replace with actual deployed GitHub Pages URL)
 
 ---
